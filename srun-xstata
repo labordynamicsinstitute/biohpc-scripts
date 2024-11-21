@@ -1,0 +1,3 @@
+#!/bin/bash
+
+srun -n 1 -N 1 --mem=8G --x11  --pty xstata.sh
